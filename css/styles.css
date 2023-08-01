@@ -353,7 +353,7 @@ body {
 .empl-soc-posit {
   display: flex;
   gap: 24px;
-  padding-top: 8px;
+  margin-top: 8px;
   justify-content: center;
 }
 
@@ -439,7 +439,7 @@ body {
 .vault-container {
   display: flex;
   justify-content: flex-start;
-  gap: 120px;
+  /* gap: 120px; */
   align-items: baseline;
 }
 
