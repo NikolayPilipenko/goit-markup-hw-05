@@ -500,6 +500,28 @@ body {
   height: 24px;
 }
 
+.subscr-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: var(--backgr-color);
+
+  background: var(--subsid-color);
+}
+
+.subscr-labl {
+  background: transparent;
+  border: none;
+}
+
+.q123 {
+  border: 1px solid var(--backgr-color);
+  border-radius: 4px;
+}
+
 /* modal window */
 .modal-shell {
   position: fixed;
