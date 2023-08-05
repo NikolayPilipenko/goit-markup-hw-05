@@ -356,7 +356,7 @@
           </p>
         </div>
 
-        <div>
+        <div class="valut-soc">
           <p class="vault-soc-title">Social media</p>
           <ul class="list valut-soc-posit">
             <li class="valut-soc-list">
@@ -389,19 +389,29 @@
             </li>
           </ul>
         </div>
-        <div>
-          <form>
-            <p class="vault-soc-title">Subscribe</p>
-            <label class="q123">
+        <div class="vault-sub">
+          <p class="vault-sub-title">Subscribe</p>
+
+          <div class="valut-form-cont">
+            <form class="valut-form">
               <input
                 type="email"
-                name="subscribe"
+                name="valut-email"
+                class="valut-input"
                 placeholder="E-mail"
-                class="subscr-labl"
               />
-            </label>
-            <button class="subscr-btn" type="submit">Subscribe</button>
-          </form>
+
+              <button type="submit" class="valut-input-btn">
+                Subscribe
+                <span>
+                  <a href=""
+                    ><svg width="24" height="24" class="subscribe-icon">
+                      <use href="./images/icons.svg#tg"></use>
+                    </svg> </a
+                ></span>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
