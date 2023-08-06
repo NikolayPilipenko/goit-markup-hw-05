@@ -541,7 +541,7 @@ body {
   color: var(--backgr-color);
 }
 
-::placeholder {
+.valut-form-label ::placeholder {
   color: var(--backgr-color);
 }
 
@@ -687,6 +687,10 @@ body {
   border-color: var(--subsid-color);
 }
 
+.modal-input:hover + .modal-icon-user {
+  fill: var(--subsid-color);
+}
+
 .modal-icon-user {
   transform: translateY(-50%);
   position: absolute;
@@ -724,7 +728,10 @@ body {
   margin-bottom: 24px;
 }
 
-.modal-chek-input .visually-hidden {
+.modal-chek-input:checked + .modal-chek-span {
+  background-color: var(--backgr-btn);
+  border: none;
+  fill: var(--log-stud-col);
 }
 .modal-chek-label {
   letter-spacing: 0.04em;
