@@ -724,6 +724,10 @@ body {
   border-color: var(--subsid-color);
 }
 
+.modal-textarea:hover::placeholder {
+  color: var(--subsid-color);
+}
+
 .modal-chek {
   margin-bottom: 24px;
 }
