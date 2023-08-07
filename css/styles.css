@@ -739,7 +739,7 @@ body {
   margin-bottom: 24px;
 }
 
-.modal-chek-input:checked + .modal-chek-span {
+.modal-chek-input:checked + .modal-chek-label > .modal-chek-span {
   background-color: var(--backgr-btn);
   border: none;
   fill: var(--log-stud-col);
