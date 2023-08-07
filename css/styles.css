@@ -687,8 +687,15 @@ body {
   border-color: var(--subsid-color);
 }
 
-.modal-input:hover + .modal-icon-user {
+.modal-input:hover + .modal-icon-user,
+.modal-input:focus + .modal-icon-user {
   fill: var(--subsid-color);
+}
+
+.modal-icon-user:hover + .modal-input,
+.modal-icon-user:focus + .modal-input {
+  fill: var(--subsid-color);
+  border-color: var(--subsid-color);
 }
 
 .modal-icon-user {
